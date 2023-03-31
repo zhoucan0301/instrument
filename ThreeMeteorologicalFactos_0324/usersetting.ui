@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserSetting</class>
+ <widget class="QWidget" name="UserSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>601</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>用户设置</string>
+   </property>
+   <widget class="QLabel" name="label_name">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>98</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>用   户  名:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_password">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>98</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>密         码:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_repassword">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>98</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确认密码:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_password">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>261</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_repassword">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>261</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_usersetHelp">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>130</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>新增/Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_userseting">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>100</y>
+      <width>130</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>删除/Del
+修改/Edit</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_number">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>261</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_number">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>授   权  码:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_username">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>20</y>
+      <width>261</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_initialization">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>40</y>
+     <width>130</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>软件盘/KeyB</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_saveandexit">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>180</y>
+     <width>130</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出/Return</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>441</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>地震前兆二氧化碳在线分析仪——用户设置</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>0</y>
+      <width>221</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ID：X91XDQYQ1402</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_save">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>110</y>
+     <width>130</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存/Save</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>781</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>填写说明</string>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>551</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1.用户名可输入英文，字符数量小于12；</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>591</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2.密码及确认密码由数字和大小写字母组成，字符范围6~20。</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>581</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>3.设置可确认用户信息，进行数据日志的记录。</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>621</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4.初始化可清除当前用户信息，进行新用户的登录与新的数据日志的记录。</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>601</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>5.仅系统管理员可新增、删除用户、授权码，其它仅修改密码。</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>20</y>
+      <width>211</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
